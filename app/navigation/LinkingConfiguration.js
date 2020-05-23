@@ -1,6 +1,6 @@
-import * as Linking from 'expo-linking';
+import * as Linking from 'expo-linking'
 
-export default {
+export const LinkingConfiguration = {
   prefixes: [Linking.makeUrl('/')],
   config: {
     Root: {
@@ -11,4 +11,4 @@ export default {
       },
     },
   },
-};
+}
