@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from 'react-native'
 
 import { useStores } from '../store'
 
-export default function HomeScreen() {
+export const HomeScreen = () => {
   const { expensesStore } = useStores()
 
   console.log(expensesStore.expenses[0].title)
