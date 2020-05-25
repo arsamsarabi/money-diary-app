@@ -1,8 +1,8 @@
 import React from 'react'
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet } from 'react-native'
 
 import { useStores } from '../store'
-import { Screen } from '../components'
+import { Screen, Text } from '../components'
 
 export const HomeScreen = () => {
   const { expensesStore } = useStores()
